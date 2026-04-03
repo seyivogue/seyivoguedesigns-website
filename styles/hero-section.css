@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.hero-box {
+    width: 50%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalogue{
+    padding-top: 100px;
+    width: 600px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    display: flex;
+    font-size: 40px;
+    width: 100px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.overlay button {
+    padding: 12px 30px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.overlay button:hover {
+    background: white;
+    color: black;
+}
+

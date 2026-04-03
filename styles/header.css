@@ -1,0 +1,59 @@
+/* Top Bar */
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: black;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 60px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 241, 205);
+}
+
+.seyivogue-logo {
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    margin-left: 50px;
+    padding: 15px;
+}
+
+.scissors {
+    height: 40px;
+    width: 70px;
+    object-fit: cover
+}
+
+.mark {
+    height: 50px;
+    width: 55px;
+    object-fit: cover
+}
+
+.contact-whatsapp {
+    color: white;
+    font-size: 14px;
+}
+
+.right-section {
+    display: flex;
+    padding-right: 25px;
+    color: rgb(13, 172, 13);
+    width: 400px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.right-section div a {
+    color: rgb(13, 172, 13);
+}
